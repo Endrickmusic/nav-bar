@@ -1,8 +1,8 @@
 const App = () => {
 
   return (
-    <div className="text-3xl font-italic underline flex items-center">
-      <p>Template</p>
+    <div className="text-4xl font-italic underline flex-center">
+      <p class="rounded">Template</p>
     </div>
   )
 }
