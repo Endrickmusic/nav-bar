@@ -1,9 +1,15 @@
+import Navbar from './components/Navbar.jsx'
+import Hero from './components/Hero.jsx'
+import Highlights from './components/Highlights.jsx'
+
 const App = () => {
 
   return (
-    <div className="text-4xl font-italic underline flex-center">
-      <p class="rounded">Template</p>
-    </div>
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlights />
+    </main>
   )
 }
 
